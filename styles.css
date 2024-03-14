@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(81, 81, 81);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  nav{
+    padding: 20px;
+    background-color: #ea5757;
+    box-shadow: 0px 2px 5px rgba(255, 244, 244, 0.1);
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #121212;
+    color: #da4141;
+  }
